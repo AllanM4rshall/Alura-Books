@@ -1,0 +1,18 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+
+:root {
+    --cor-de-fundo: #f6b4fb;
+    --branco: #ceb9b9;
+    --laranja: orange;
+    --preto: black;
+    --azule: rgb(6,6,77);
+    --fonte-principal: "poppins";
+}
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
